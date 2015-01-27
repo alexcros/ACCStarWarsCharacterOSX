@@ -60,7 +60,7 @@ int main(int argc, const char * argv[]) {
         ACCJedi *lukeClone = luke;
         
         // unsheathe
-        NSLog(@"Yoda /n %@", yoda.unsheathe);
+        NSLog(@"%@", yoda.unsheathe);
         
         if ([quiGonJin isEqualTo:luke] == YES) {
             
