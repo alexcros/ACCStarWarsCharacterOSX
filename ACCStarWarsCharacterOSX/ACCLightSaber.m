@@ -19,6 +19,8 @@
                                 blue:blue];
 }
 
+// instance methods
+
 +(instancetype) ACCLightSaberWithRed {
     
     return [[self alloc] initWithRedLightSaber];
@@ -41,7 +43,7 @@
 }
 
 
-// instance method
+// init
 -(instancetype) initWithRed: (float) red
                       green:(float) green
                        blue: (float) blue {

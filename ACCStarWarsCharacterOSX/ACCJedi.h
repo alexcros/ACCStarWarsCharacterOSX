@@ -10,6 +10,7 @@
 #import "ACCLightSaber.h"
 
 @interface ACCJedi : ACCStarWarsCharacterOSX
+
 @property NSUInteger midichlorians;
 @property ACCLightSaber *lighSaber;
 @property ACCJedi *padawanOf;
@@ -20,6 +21,7 @@
         lightSaber:(ACCLightSaber*)lightSaber
          padawanOf:(ACCJedi*) master;
 
+// convenience
 -(id) initWithName:(NSString*) alias;
 
 -(id) initWithJediMasterNamed:(NSString*) alias;

@@ -10,7 +10,7 @@
 
 @implementation ACCStarWarsCharacterOSX
 
-// build alloc init
+// factory
 
 +(id) starWarsCharacterWithAlias:(NSString *) alias {
     
@@ -36,6 +36,7 @@
     
 }
 
+// compare to
 -(BOOL)isEqual:(id)object{
     
     if ([object isKindOfClass:[self class]]) {

@@ -27,13 +27,13 @@
 +(instancetype) ACCLightSaberWithPurple;
 
 
-//designado
+//designated
 
 -(id) initWithRed: (float) red
                       green:(float) green
                        blue: (float) blue;
 
-// conveniencia
+// convenience
 
 //blue
 -(id) initWithBlueLightSaber;

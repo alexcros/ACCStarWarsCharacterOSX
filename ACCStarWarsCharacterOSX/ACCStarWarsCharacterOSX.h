@@ -13,10 +13,10 @@
 // property
 @property NSString *alias;
 
-// constructores
+// factory
 +(id) starWarsCharacterWithAlias:(NSString *) alias;
 
-// inicializador designado
+// init
 -(id) initWithAlias: (NSString *) alias;
 
 
